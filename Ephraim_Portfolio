@@ -1,0 +1,97 @@
+MY PORTFOLIO
+
+  HOME PAGE
+               REQUIREMENTS 
+My name
+A short introduction statement
+A summary of me(I am a passionate high school student with a strong interest in building creative solutions and new technologies. This portfolio presents my project, accomplishments, and skills as I work towards becoming a more innovative and knowledgeable student.
+A professional photo (optional)
+A button or link to “View Projects” or “Contact Me”
+Clean, welcoming design
+Page Title: "Home | [Uduka Ephraim]"
+Hero Section Layout: [Student’s Full Name] “Uduka Ephraim”
+                                  [github-username] “udukaephraim”
+                                  [Project Title] “Ephraim_Portfolio”
+                                   
+Left Column:
+H1: "[Student's Full Name]"
+H2: "Aspiring Computer Scientist"
+Paragraph: "[I am a passionate high school student with a strong interest in building creative solutions and learning new technology. This portfolio present my projects, accomplishments, and skills as I work toward becoming a more innovative and knowledgeable student.']"
+Button: "View My Projects" (links to projects.html)
+Right Column:
+Insert: Professional headshot image (profile.jpg with alt=&quot;[Student&#39;s
+Name]&quot;)
+- Color scheme
+- Font families
+- Layout system (Grid/Flexbox details)
+- Responsive breakpoints
+- CSS framework
+
+
+2.PROJECTS PAGE (projects.html)
+REQUIREMENTS 
+Project Title 
+Short description 
+What I learned/ skills used 
+Image or screenshots (optional)
+Page Title: "My Work | [Student's Full Name]"
+Layout: CSS Grid with 2-3 columns on desktop.
+Project Card Components (Repeat for each project):
+Project Title: H3 - "[Ephraim_portfolio]"
+Project Image: [project-image.jpg] with alt="Screenshot of [Project Name]"
+Description: P - "[ 
+                        : 'A responsive website built with        
+                        HTML and CSS. Learned to    
+                        structure layouts using Flexbox.']"
+Tech Tags: Span tags with classes: <span class="tech-tag">HTML</span> <span class="tech-tag">CSS</span>
+
+ABOUT/RESUME PAGE  (about.html)
+     Propose: To show my background, achievement, skills, and education in a clean format.
+REQUIREMENT
+Student profile statement 
+My name 
+What I enjoy 
+My goals 
+     B.
+School Name 
+Level (Senior Secondary)
+Year's (Festac senior grammar schol)
+Page Title: "About | [Uduka Ephraim]"
+Two-Column Layout:
+Left Column (Education):
+H2: "Education"
+H3: "[5th Avenue nursery and primary school, Festac senior grammar school]"
+P: "[2011-2025]"
+Ul: [I am a senior secondary school student with knowledge of web designing, graphic design, and HTML and CSS.]
+Right Column (Skills):
+H2: "Skills"
+H3: "WEB DEVELOPMENT "
+Ul: [HTML AND CSS]
+Ul: [WIRE FRAMENING]
+H3: "Programming"
+Ul: [Python]
+H3: "Design"
+Ul: [Canva]
+
+CONTACT PAGE (contact.html)
+     Purpose: To allow people to react with me easily.
+ REQUIREMENTS 
+My Email address 
+My phone number (optional)
+A contact form (Name, Email, Message)(optional)
+Short note “let's get in touch” message, “feel free to reach out. I'm always open to learning opportunities, collaborations, and new ideas.”
+Page Title: "Contact | [Student's Full Name]"
+Layout: Centered form.
+Content:
+H1: "Get In Touch"
+Form with fields:
+Input: name (type="text", placeholder="Uduka Ephraim")
+Input: email (type="email", placeholder="ephraimuduka27@gmail.coml")
+Textarea: message (placeholder="My Message")
+Contact Info below form:
+P: "Email: [ephraimuduka27@gmail.com]"
+P: "GitHub: [Ephraimuduka]
+
+FINAL PROMPT
+“Build a complex, responsive, modern student portfolio website for me with four pages (Home, Project, About / Resume, Contact) using clean semantic HTML5 and modular CSS. Follow all requirements below strictly and produce high quality, industry standard code and layout” 
+

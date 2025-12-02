@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My Work | Uduka Ephraim</title>
+  <meta name="description" content="Projects by Uduka Ephraim — descriptions, screenshots and technologies used.">
+  <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Uduka Ephraim</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+      <nav id="primary-navigation" class="nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <h1>Projects</h1>
+    <p class="lead">The projects below reflect three areas I focus on: wireframing and visual design using Canva, building responsive sites with HTML &amp; CSS, and Python scripting for small tools and automation.</p>
+
+    <section class="projects-grid projects-list">
+
+      <article class="card project-card">
+        <div class="project-row">
+          <!-- Canva design as background-image so it fully covers the slot -->
+          <div class="project-image bg" style="background-image:url('Canva project.jpeg')">
+            <a href="Canva project.jpeg" target="_blank" rel="noopener" aria-label="Open Canva design" title="Open Canva design"><span class="sr-only">Open Canva design</span></a>
+          </div>
+          <div class="project-content card-body">
+            <h3>Canva Design</h3>
+            <p>A student portfolio design created using Canva to produce clean and visually appealing layouts before coding.</p>
+            <h4>What I did / learned</h4>
+            <ul>
+              <li>Produced multi-screen wireframes and mockups</li>
+              <li>Applied visual hierarchy, spacing and typography principles</li>
+              <li>Exported image assets for use in HTML/CSS builds</li>
+            </ul>
+            <p class="tags"><span class="tag">Canva</span><span class="tag">Wireframing</span><span class="tag">Design</span></p>
+            <p><a class="btn" href="#">View mockups</a> <a class="btn" href="#">Design notes</a></p>
+            <!-- wireframe thumbnail removed per request: first project now shows only the Canva design -->
+          </div>
+        </div>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-row">
+          <!-- HTML & CSS screenshot as background-image to fully cover the slot -->
+          <div class="project-image bg" style="background-image:url('html and css.jpeg')">
+            <a href="html and css.jpeg" target="_blank" rel="noopener" aria-label="Open HTML &amp; CSS screenshot" title="Open HTML &amp; CSS screenshot"><span class="sr-only">Open HTML &amp; CSS screenshot</span></a>
+          </div>
+          <div class="project-content card-body">
+            <h3>HTML &amp; CSS Projects</h3>
+            <p>Responsive websites and components built with semantic HTML and modular CSS. Examples include landing pages, portfolios, and reusable UI components.</p>
+            <h4>What I did / learned</h4>
+            <ul>
+              <li>Semantic markup and accessible navigation</li>
+              <li>Responsive design with Grid and Flexbox</li>
+              <li>Reusable CSS components and utility classes</li>
+            </ul>
+            <p class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Responsive</span></p>
+            <p><a class="btn" href="#">Live examples</a> <a class="btn" href="https://github.com/udukaephraim" target="_blank" rel="noopener">Source</a></p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-row">
+          <!-- Python screenshot as background-image to fully cover the slot (replaced with uploaded 'Rock') -->
+          <div class="project-image bg python" style="background-image:url('Rock .jpeg')">
+            <a href="Rock .jpeg" target="_blank" rel="noopener" aria-label="Open Rock image" title="Open Rock image"><span class="sr-only">Open Rock image</span></a>
+          </div>
+          <div class="project-content card-body">
+            <h3>Python Coding</h3>
+            <p>Small Python scripts and tools for data processing, file automation, and simple data analysis — useful for quick automation tasks and reports.</p>
+            <h4>What I did / learned</h4>
+            <ul>
+              <li>Writing clear command-line scripts with helpful output</li>
+              <li>Project structuring and documentation</li>
+            </ul>
+            <p class="tags"><span class="tag">Python</span><span class="tag">Scripting</span><span class="tag">Automation</span></p>
+            <p><a class="btn" href="#">Examples</a> <a class="btn" href="#">Source</a></p>
+          </div>
+        </div>
+      </article>
+
+      <!-- New Wireframe project entry (image removed) -->
+      <article class="card project-card">
+        <div class="project-row">
+          <!-- convert to background-image block so we can control crop/focal point precisely -->
+          <div class="project-image bg" style="background-image:url('Wire Frame.jpeg')">
+            <a href="Wire Frame.jpeg" target="_blank" rel="noopener" aria-label="Open Wire Frame image" title="Open Wire Frame image" style="display:block;height:100%;width:100%"><span class="sr-only">Open Wire Frame image</span></a>
+          </div>
+          <div class="project-content card-body">
+            <h3>Wireframe Study</h3>
+            <p>A focused wireframe study that documents layout decisions, information hierarchy and interactions before visual design. The wireframe was created in Canva and exported as an image for review.</p>
+            <h4>What I did / learned</h4>
+            <ul>
+              <li>Mapped user journeys and screen flows for the portfolio</li>
+              <li>Created low-fidelity wireframes to test layout and content order</li>
+              <li>Iterated based on usability considerations and simplified visual hierarchy</li>
+            </ul>
+            <p class="tags"><span class="tag">Wireframing</span><span class="tag">Canva</span><span class="tag">UX</span></p>
+            <p><a class="btn" href="#">Notes</a></p>
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Uduka Ephraim</p>
+      <p><a href="mailto:ephraimuduka27@gmail.com">ephraimuduka27@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

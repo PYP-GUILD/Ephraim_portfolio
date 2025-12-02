@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Uduka Ephraim — aspiring computer scientist. Projects, skills and contact.">
+  <title>Home | Uduka Ephraim</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Uduka Ephraim</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+      <nav id="primary-navigation" class="nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1>Uduka Ephraim</h1>
+          <h2 class="sub">Inspired Computer Student</h2>
+          <p class="lead">I am a passionate high school student with a strong interest in building creative solutions and new technologies. This portfolio presents my projects, accomplishments, and skills as I work towards becoming a more innovative and knowledgeable student.</p>
+          <p class="cta-row">
+            <a class="btn primary" href="projects.html">View My Projects</a>
+            <a class="btn" href="about.html">About / Resume</a>
+          </p>
+          <p class="meta">GitHub: <a href="https://github.com/udukaephraim" target="_blank" rel="noopener noreferrer">udukaephraim</a></p>
+        </div>
+        <div class="hero-right">
+          <picture>
+            <img src="Home page image.jpeg" alt="Uduka Ephraim — profile photo" class="profile-photo">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights container">
+      <h3>Selected Projects</h3>
+      <div class="projects-grid">
+        <article class="card">
+          <img src="Ephraim_portfolio.jpeg" alt="Screenshot of Ephraim Portfolio" class="card-image portfolio-screenshot">
+          <div class="card-body">
+            <h4>Ephraim_Portfolio</h4>
+            <p>A responsive portfolio site built as this project — demonstrates semantic HTML, modular CSS, and responsive layout using Grid and Flexbox.</p>
+            <p class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Responsive</span></p>
+            <p><a href="projects.html" class="btn small">See projects</a></p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="Canva project.jpeg" alt="Canva project mockup" class="card-image">
+          <div class="card-body">
+            <h4>Canva Design</h4>
+            <p>A student portfolio design created using Canva, showcasing various projects and skills.</p>
+            <p class="tags"><span class="tag">Design</span><span class="tag">Canva</span></p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Uduka Ephraim — Built with semantic HTML &amp; modular CSS.</p>
+      <p>Contact: <a href="mailto:ephraimuduka27@gmail.com">ephraimuduka27@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+  <script>
+    // small enhancement: set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

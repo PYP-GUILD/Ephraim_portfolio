@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact | Uduka Ephraim</title>
+  <meta name="description" content="Contact Uduka Ephraim — get in touch for collaborations and learning opportunities.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Uduka Ephraim</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+      <nav id="primary-navigation" class="nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container contact-page">
+    <h1>Get in Touch</h1>
+  <p class="lead">Feel free to reach out. I'm open to learning opportunities, collaborations, and new ideas.</p>
+
+    <section class="contact-grid">
+  <form class="contact-form" action="mailto:ephraimuduka27@gmail.com" method="post" enctype="text/plain">
+  <label for="name">Name</label>
+  <input id="name" name="name" type="text" placeholder="Your name" required>
+
+  <label for="email">Email</label>
+  <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="6" placeholder="Hi Uduka — I'd like to..." required></textarea>
+
+        <p><button type="submit" class="btn primary">Send</button></p>
+      </form>
+
+      <aside class="contact-info">
+        <h2>Contact Info</h2>
+        <p>Email: <a href="mailto:ephraimuduka27@gmail.com">ephraimuduka27@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/udukaephraim" target="_blank" rel="noopener">udukaephraim</a></p>
+        <p>Location: (Your city — optional)</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Uduka Ephraim</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
