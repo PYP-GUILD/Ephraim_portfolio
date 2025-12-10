@@ -6,8 +6,9 @@
   <title>My Work | Uduka Ephraim</title>
   <meta name="description" content="Projects by Uduka Ephraim — descriptions, screenshots and technologies used.">
   <link rel="stylesheet" href="styles.css">
-  </head>
+</head>
 <body>
+  <!-- Header / Navigation -->
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="index.html">Uduka Ephraim</a>
@@ -25,6 +26,7 @@
     </div>
   </header>
 
+  <!-- Main Content -->
   <main id="main" class="container">
     <h1>Projects</h1>
     <p class="lead">The projects below reflect three areas I focus on: wireframing and visual design using Canva, building responsive sites with HTML &amp; CSS, and Python scripting for small tools and automation.</p>
@@ -33,7 +35,6 @@
 
       <article class="card project-card">
         <div class="project-row">
-          <!-- Canva design as background-image so it fully covers the slot -->
           <div class="project-image bg" style="background-image:url('Canva project.jpeg')">
             <a href="Canva project.jpeg" target="_blank" rel="noopener" aria-label="Open Canva design" title="Open Canva design"><span class="sr-only">Open Canva design</span></a>
           </div>
@@ -48,14 +49,12 @@
             </ul>
             <p class="tags"><span class="tag">Canva</span><span class="tag">Wireframing</span><span class="tag">Design</span></p>
             <p><a class="btn" href="#">View mockups</a> <a class="btn" href="#">Design notes</a></p>
-            <!-- wireframe thumbnail removed per request: first project now shows only the Canva design -->
           </div>
         </div>
       </article>
 
       <article class="card project-card">
         <div class="project-row">
-          <!-- HTML & CSS screenshot as background-image to fully cover the slot -->
           <div class="project-image bg" style="background-image:url('html and css.jpeg')">
             <a href="html and css.jpeg" target="_blank" rel="noopener" aria-label="Open HTML &amp; CSS screenshot" title="Open HTML &amp; CSS screenshot"><span class="sr-only">Open HTML &amp; CSS screenshot</span></a>
           </div>
@@ -76,7 +75,6 @@
 
       <article class="card project-card">
         <div class="project-row">
-          <!-- Python screenshot as background-image to fully cover the slot (replaced with uploaded 'Rock') -->
           <div class="project-image bg python" style="background-image:url('Rock .jpeg')">
             <a href="Rock .jpeg" target="_blank" rel="noopener" aria-label="Open Rock image" title="Open Rock image"><span class="sr-only">Open Rock image</span></a>
           </div>
@@ -94,10 +92,8 @@
         </div>
       </article>
 
-      <!-- New Wireframe project entry (image removed) -->
       <article class="card project-card">
         <div class="project-row">
-          <!-- convert to background-image block so we can control crop/focal point precisely -->
           <div class="project-image bg" style="background-image:url('Wire Frame.jpeg')">
             <a href="Wire Frame.jpeg" target="_blank" rel="noopener" aria-label="Open Wire Frame image" title="Open Wire Frame image" style="display:block;height:100%;width:100%"><span class="sr-only">Open Wire Frame image</span></a>
           </div>
@@ -119,14 +115,18 @@
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>&copy; <span id="year"></span> Uduka Ephraim</p>
+      <p>&copy; <span id="year"></span> Uduka Ephraim — Built with semantic HTML &amp; modular CSS.</p>
       <p><a href="mailto:ephraimuduka27@gmail.com">ephraimuduka27@gmail.com</a></p>
     </div>
   </footer>
 
-  <script src="assets/js/main.js" defer></script>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <!-- Scripts -->
+  <script src="main.js" defer></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
