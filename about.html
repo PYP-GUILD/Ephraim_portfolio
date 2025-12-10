@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Header / Navigation -->
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="index.html">UDUKA EPHRAIM</a>
@@ -25,6 +26,7 @@
     </div>
   </header>
 
+  <!-- Main Content -->
   <main id="main" class="container about-grid">
     <section>
       <h1>ABOUT ME</h1>
@@ -60,13 +62,13 @@
 
         <article class="edu-card card small">
           <h3>PYP GUILD PROGRAM (NGO)</h3>
-      <P class="Year">2025</P>
+          <p class="years">2025</p>
           <ul>
             <li>Web Design</li>
             <li>Portfolio design using Canva</li>
             <li>Python Coding</li>
             <li>Wireframing</li>
-            <li>HTML & CSS</li>
+            <li>HTML &amp; CSS</li>
           </ul>
         </article>
       </div>
@@ -92,15 +94,19 @@
         <li>Canva</li>
       </ul>
     </aside>
+  </main>
 
-
-
+  <!-- Footer -->
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>&copy; <span id="year"></span> Uduka Ephraim</p>
+      <p>&copy; <span id="year"></span> Uduka Ephraim — Built with semantic HTML &amp; modular CSS.</p>
     </div>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <!-- Scripts -->
+  <script src="main.js" defer></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
